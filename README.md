@@ -2,7 +2,7 @@
 ArduinoNanoHraciaKocka
 # Components
 1. Arduino Nano
-2. 6x LED Dipde (Custom Color)
+2. 6x LED Diodes (Custom Color)
 3. 1x Button
 4. Some Wires (13pcs)
 5. Bread Board for connecting
