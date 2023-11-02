@@ -15,6 +15,6 @@ ArduinoNanoHraciaKocka s generovaním náhodného čísla v podobe svetelného z
 - LED 6 --> D7
 - Button 1 --> D8
 ## Some Images
-<img src="img1.jpg" width="100" height="60">
-<img src="img2.jpg" width="100" height="60">
-<img src="img3.jpg" width="100" height="60">
+<img src="img1.jpg" width="300" height="200">
+<img src="img2.jpg" width="300" height="200">
+<img src="img3.jpg" width="300" height="200">
