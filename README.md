@@ -1,5 +1,5 @@
 # NanoHraciaKocka
-ArduinoNanoHraciaKocka
+ArduinoNanoHraciaKocka s generovaním náhodného čísla v podobe svetelného zobrazenia.
 # Components
 1. Arduino Nano
 2. 6x LED Diodes (Custom Color)
