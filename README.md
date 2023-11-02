@@ -8,9 +8,9 @@ ArduinoNanoHraciaKocka s generovaním náhodného čísla v podobe svetelného z
 5. Bread Board for connecting
 # Schematics
 - LED 1 --> D2
-- LED 1 --> D3
-- LED 1 --> D4
-- LED 1 --> D5
-- LED 1 --> D6
-- LED 1 --> D7
+- LED 2 --> D3
+- LED 3 --> D4
+- LED 4 --> D5
+- LED 5 --> D6
+- LED 6 --> D7
 - Button 1 --> D8
