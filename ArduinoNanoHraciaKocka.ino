@@ -3,6 +3,18 @@ int ledPins[] = {2, 3, 4, 5, 6, 7};
 int randomNumber = 0;
 bool displayNumber = false;
 
+// 
+// CONNECTION SCHEME
+// 
+// LED 1 --> D2
+// LED 2 --> D3
+// LED 3 --> D4
+// LED 4 --> D5
+// LED 5 --> D6
+// LED 6 --> D7
+// Button 1 --> D8
+// 
+
 void setup() {
   randomSeed(analogRead(0));
   pinMode(buttonPin, INPUT_PULLUP);
