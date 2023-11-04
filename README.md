@@ -18,3 +18,6 @@ ArduinoNanoHraciaKocka s generovaním náhodného čísla v podobe svetelného z
 <img src="img1.jpg" width="600" height="800">
 <img src="img2.jpg" width="600" height="800">
 <img src="img3.jpg" width="600" height="800">
+<img src=".jpg" width="600" height="800">
+<img src=".jpg" width="600" height="800">
+<img src=".jpg" width="600" height="800">
