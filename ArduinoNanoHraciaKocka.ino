@@ -1,8 +1,7 @@
 int buttonPin = 8;
 int ledPins[] = {2, 3, 4, 5, 6, 7};
-int displayState = 0;
 bool buttonPressed = false;
-int brightnessLevel = 50; // Nastavte hodnotu intenzity svietenia (0 - 255)
+int brightnessLevel = 10; // Chýbajúci deklarovaný dátový typ a priradená hodnota
 
 void setup() {
   randomSeed(analogRead(0));
@@ -16,14 +15,17 @@ void setup() {
 void loop() {
   if (digitalRead(buttonPin) == LOW && !buttonPressed) {
     buttonPressed = true;
-    int randomTime = random(1, 7);
+    int randomTime = random(2, 7); // Generovať náhodné číslo od 2 do 6
+
     for (int i = 0; i < randomTime; i++) {
-      analogWrite(ledPins[i], brightnessLevel); // Nastavte intenzitu svietenia
+      analogWrite(ledPins[i], brightnessLevel); // Zapnúť náhodné diódy s nastavenou intenzitou svietenia
+      digitalWrite(ledPins[i], HIGH);
     }
-    displayState = randomTime;
-    delay(1000); // Počkajte 1 sekundu
-    for (int i = 0; i < displayState; i++) {
-      digitalWrite(ledPins[i], LOW);
+
+    delay(1000); // Počkať 1 sekundu
+
+    for (int i = 0; i < 6; i++) {
+      analogWrite(ledPins[i], 0); // Vypnúť všetky diódy nastavením intenzity na 0
     }
   }
 
